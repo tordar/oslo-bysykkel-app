@@ -23,7 +23,7 @@ async function fetchData() {
         const object = stations[0][1]
         const object2 = stations2[0][1]
         console.log(object[1].station_id)
-        console.log(object2[1].station_id)
+        console.log(object2[1].station_id   )
         for(let i = 0; i<object.length; i++){
             // let hey = Object.entries(arr[i])
             arrLength.push(object[i])
